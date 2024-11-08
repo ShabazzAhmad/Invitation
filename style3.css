@@ -1,0 +1,145 @@
+.rubik-font {
+   font-family: 'Rubik Wet Paint', cursive;
+   /* Other font styles, like font-size, color, etc. */
+}
+
+.oi-font {
+   font-family: 'Oi', sans-serif;
+   /* Other font styles, like font-size, color, etc. */
+}
+
+.nosifer-font {
+   font-family: 'Nosifer', serif;
+   /* Other font styles, like font-size, color, etc. */
+}
+
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f2f2f2;
+
+   background-image: url('user_male.jpg');
+   /* background-image: url('bg.jpg'); */
+   background-repeat: no-repeat;
+   background-position: 6% 90%;
+   /* no-repeat left/cover fixed */
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   
+}
+
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header img{
+    padding-top: 5px;
+    padding-bottom: 7px;
+    height: 10rem;
+    width: 13rem;
+    /* float: left; */
+}
+
+.intro {
+   color: #333;
+   font-size: 2.2em;
+   margin: 20px 0;
+}
+.intro span {
+   display: block;
+   margin-top: 10px;
+}
+
+.invitation {
+    text-align: center;
+    padding: 40px;
+}
+
+
+.container {
+   display: grid;
+   grid-template-columns: 23% 50% 23%;
+
+   /* For large screens (e.g., desktops): */
+   @media (min-width: 1024px) {
+     grid-template-columns: 25% 50% 25%;
+   }
+ 
+   /* For medium screens (e.g., tablets): */
+   @media (min-width: 768px) and (max-width: 1023px) {
+     grid-template-columns: 1fr 1fr 1fr; /* Equal width columns */
+   }
+ 
+   /* For small screens (e.g., mobile): */
+   @media (max-width: 767px) {
+     grid-template-columns: 100%; /* Stack columns */
+   }
+}
+
+.middle {
+   margin: auto;
+   text-align: center;
+   font-size: 1.4em;
+   background-color: #ffffff;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   border-radius: 10px;
+   max-width: 600px;
+   padding: 20px;
+}
+
+.column {
+  border: none;
+  /* margin: 5px; */
+  /* padding: 20px; */
+  text-align: center;
+}
+
+.fade-in-element {
+   padding: 30px 15px;
+   opacity: 0;
+   transform: translateX(100%); /* Start off-screen to the right */
+   transition: opacity 1.5s ease-in-out, transform 2.5s ease-in-out; /* Adjust timings if desired */
+ }
+ 
+ .fade-in-element.show {
+   opacity: 1;
+   transform: translateX(0); /* Animate into view from the left */
+ }
+
+
+.footer {
+    background-color: rgb(251, 255, 30);
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tel a {
+   font-size: 20px;
+}
+/* 
+.tel {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social {
+    padding: 20px;
+    text-align: center;
+    
+} 
+*/
+
+.social a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 40px;
+}

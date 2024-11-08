@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>You're Invited</title>
+   <link rel="stylesheet" href="style3.css">
+   <link href="https://fonts.googleapis.com/css2?family=Nosifer&family=Oi&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap">
+   <link href="https://fonts.googleapis.com/css2?family=Oi&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   <header>
+      <div class="col-md-12">
+         <img src="starz_logo.png" alt="Starz University Logo">
+         <h1 class="nosifer-font">You're Invited!</h1>
+      </div>
+   </header>
+
+   <section class="invitation">
+      <h1 class="nosifer-font">Graduation Invitation</h1>
+      <p class="intro">
+         Join us in celebrating the graduation of<br>
+         <strong>Ahmad W. Sow</strong><br>
+         from <span class="oi-font">Starz University</span> with a Bachelor of Science in Information Technology,<br>
+         with an emphasis on System Administration.
+      </p>
+      <div class="container">
+         <div class="column fade-in-element">
+            <img src="bg.jpg" height="300px" width="210px" style="border-radius: 10px; " alt="">
+         </div>
+         <div class="column middle">
+               <h2 class="rubik-font">Graduation Ceremony</h2>
+               <p><strong>Date:</strong> November 26, 2024</p>
+               <p><strong>Time:</strong> 10:00 AM</p>
+               <p><strong>Venue:</strong> Monrovia Christian Fellowship Church <br><i class="fas fa-location-dot"></i> 9th Street, Sinkor</p>
+         </div>
+         <div class="column fade-in-element">
+            <img src="bg.jpg" height="300px" width="230px" style="border-radius: 10px;" alt="">
+         </div>
+      </div>
+   </section>
+
+   <section class="footer">
+      <span class="tel">
+         <p>For More Info Contact us on <br>
+            <a href="tel:+231555001938">0555001938</a> / 
+            <a href="tel:+231777001938">0777001938</a>
+         </p>
+      </span>
+      <span class="social">
+         <p>or on Social Media <br>
+            <a href="https://www.facebook.com/profile.php?id=100074604513658&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/ahmadsow3?s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/ahmadsow101?igsh=MTRpZHY4YWU5dXhxNA==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://wa.me/qr/5P6OZQRUU6DVI1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+         </p>
+      </span>
+   </section>
+   <script>
+      window.addEventListener('scroll', () => {
+         const elements = document.querySelectorAll('.fade-in-element');
+      
+         elements.forEach(element => {
+         const rect = element.getBoundingClientRect();
+         if (rect.top < window.innerHeight * 0.8) {
+            element.classList.add('show');
+         }
+         });
+      });
+   </script>
+</body>
+</html>
