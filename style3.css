@@ -18,8 +18,9 @@ body {
    margin: 0;
    padding: 0;
    background-color: #f2f2f2;
-
-   background-image: url('mainbg.jpg'); 
+
+   /* background-image: url('user_male.jpg'); */
+   background-image: url('bg.jpg');
    background-repeat: no-repeat;
    background-position: 6% 90%;
    /* no-repeat left/cover fixed */
@@ -42,11 +43,21 @@ header img{
     padding-bottom: 7px;
     height: 10rem;
     width: 13rem;
-    /* float: left; */
+}
+
+.invitation {
+   text-align: center;
+   padding: 40px;
+   color: #fff;
+}
+
+.transparent-div {
+   margin: auto;
+   padding: 40px 0;
+   background-color: rgba(0, 0, 0, 0.7); /* Blue with 50% transparency */
 }
 
 .intro {
-   color: #333;
    font-size: 2.2em;
    margin: 20px 0;
 }
@@ -54,12 +65,6 @@ header img{
    display: block;
    margin-top: 10px;
 }
-
-.invitation {
-    text-align: center;
-    padding: 40px;
-}
-
 
 .container {
    display: grid;
@@ -85,6 +90,7 @@ header img{
    margin: auto;
    text-align: center;
    font-size: 1.4em;
+   color: #333!important;
    background-color: #ffffff;
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
    border-radius: 10px;
