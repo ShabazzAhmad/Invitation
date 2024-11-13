@@ -108,7 +108,7 @@ header img{
 .fade-in-element {
    padding: 30px 15px;
    opacity: 0;
-   transform: translateX(60px); /* Start to the right */
+   transform: translateX(50px); /* Start to the right */
    transition: opacity 2s ease-in-out, transform 2.5s ease-in-out; /* Adjust timings if desired */
  }
  
