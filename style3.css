@@ -13,6 +13,11 @@
    /* Other font styles, like font-size, color, etc. */
 }
 
+.eater-font {
+    font-family: 'Eater', cursive;
+    /* Other font styles, like font-size, color, etc. */
+}
+
 body {
    font-family: Arial, sans-serif;
    margin: 0;
