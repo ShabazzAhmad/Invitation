@@ -117,6 +117,10 @@ header img{
    transform: translateX(0); /* Animate into view from the left */
  }
 
+div.rotate_left {
+  float: left;
+  transform: rotate(-8deg);
+}
 
 .footer {
     background-color: rgb(251, 255, 30);
